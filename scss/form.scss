@@ -1,0 +1,111 @@
+ .form {
+     padding: 215px 0 185px;
+    }
+    
+    .container__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .form__decor {
+        position: relative;
+        z-index: 1;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: -30px;
+            left: -11px;
+            width: 300px;
+            height: 300px;
+            background: url(/images/content/form-man.png) center center no-repeat;            
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: -81px;
+            left: 340px;
+            width: 1935px;
+            height: 178px;
+            background: url(/images/decor/form-line.png) center center no-repeat;            
+        }
+    }
+
+    .form__window {
+        padding: 28px 143px 62px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFE0B0;
+        position: relative;
+        z-index: 5;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 40%;
+            left: 97%;
+            width: 120px;
+            height: 285px;
+            background: url(/images/content/form-woman.png) center center no-repeat;
+        }
+    }
+
+ .form__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+ }
+
+ .form__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 30px;
+ }
+
+ .type__form {
+     max-width: 142px;
+     outline: none;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid #DC911B;
+     margin-right: 54px;
+     
+     font-family: Scada;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 12px;
+     line-height: 120%;
+     color: #3E3E3D;
+     
+     
+     
+     &:nth-last-of-type(1) {
+         margin-right: 0;
+         border-bottom: 1px solid black;
+     }
+
+     
+ }
+
+ .btn--form {
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left: 50%;
+     bottom: -39px;
+     z-index: 10;
+ }

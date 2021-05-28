@@ -1,0 +1,212 @@
+.footer {
+  background-color: #3E3E3D;
+  padding: 30px 0 55px;
+  color: white;
+}
+
+.container__footer {
+  width: 1200px;
+  transform: translate(30px, 0px);
+}
+
+.footer__menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  font-family: Montserrat;
+  font-style: normal;  
+  padding-bottom: 55px;
+  border-bottom: 1px solid #777E89;
+}
+
+.footer__about {
+  // width: 20%;
+}
+
+.footer__catalog {
+  // width: 20%;
+}
+
+.footer__contacts {
+  // width: 50%;
+}
+
+.about__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+
+  color: #777E89;
+
+  &:first-child {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  margin-bottom: 15px;
+
+  color: #FFFFFF;
+  }
+}
+
+.catalog__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalog__item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  
+  color: #777E89;
+  
+  &:first-child {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 16px;
+  margin-bottom: 15px;
+  
+  color: #FFFFFF;
+  }  
+}
+ 
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contacts {
+  display: flex;
+  // flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &-title {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.footer__contacts-info {
+  display: flex;
+  flex-direction: column;
+  min-width: 420px;
+}
+
+.footer-contacts__info-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+
+  &__row:first-child {
+    margin-bottom: 22px;
+  }
+
+  &--left {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+  }
+
+  &--right>.info-column__row {
+    margin-bottom: 13px;
+  }
+
+  &__row {
+    display: flex;
+  }
+}
+
+.info-column__row-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.info-column__row-mail {
+  text-decoration-line: underline;
+}
+
+.info-column__row-phone {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.footer-contacts__info-input {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    right: 14px;
+    top: 22px;
+    display: block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url(/images/svg/magnifier.svg) center center no-repeat;
+    cursor: pointer;
+  }
+}
+ 
+.info-input__search {
+  background: #3E3E3D;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 100%;
+  padding: 12px 18px;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 19px;
+  color: #DADADA;
+  margin-bottom: 28px;
+  outline: none;
+
+}
+
+.btn--orange {
+  background-color: #FD9913;
+  color: white;
+  
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.footer__rights {
+  padding-top: 58px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+
+  &-text {
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 146%;
+    color: #777E89;
+  }
+}
+
+.footer-rights__intec-logo {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 88%;
+}

@@ -1,0 +1,26 @@
+.header {
+  padding-top: 12px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-main {
+  margin-bottom: 193px;
+  padding-top: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+.container__certificates {
+  transform: translate(-86px, 0px);
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
