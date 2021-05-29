@@ -11,17 +11,3 @@
   padding-top: 25px;
 }
 
-.container {
-  margin: 0 auto;
-  width: 1140px;
-
-  &__certificates {    
-  transform: translate(-86px, 0px);
-  }
-}
-
-.container__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}

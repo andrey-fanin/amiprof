@@ -1,5 +1,5 @@
 .reviews {
-  background: url(/images/bg/reviews.png) bottom right -97px no-repeat;
+  background: url(./images/bg/reviews.png) bottom right -97px no-repeat;
   background-color: #3E3E3D;
   padding: 125px 0 65px;
 }
@@ -8,7 +8,7 @@
   transform: translate(-86px, 0px);
 }
 
-.reviews__slider, .slider{
+.slider{
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
@@ -20,18 +20,18 @@
   margin-right: 13px;
 }
 
-.reviews__title, .slider__title {
+.slider__title {
   margin: 0 0 106px 109px;
   color: white;
 }
 
-.reviews__list, .slider__list {
+.slider__list {
   display: flex;
   align-items: center;
   margin-bottom: 55px;
 }
 
-.reviews__item, .slider__item {
+.slider__item {
   margin-right: 47px;
 
   &:last-child {
@@ -56,11 +56,16 @@
   justify-content: center;
   cursor: pointer;
 
+  &-img {
+    display: flex;
+  }
+
   
   &:hover {
     background: #DC911B;
   }
 }
+
 
 #left {
   transform: scale(-1, 1);

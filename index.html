@@ -42,7 +42,7 @@
             </nav>
             <address class="contacts">
               <a href="tel:+78007003030" class="contacts__phone">+7 (351) 777-80-70</a>
-              <div class="dropdown">
+              <div class="contacts__call">
                 <div class="contacts__title">Заказать звонок</div> 
               </div>
             </address>
@@ -55,12 +55,12 @@
         </div>
       </section>
       <section class="services">
-        <div class="container">
+        <div class="container container__services">
           <h2 class="container__title">Наши услуги</h2>
             <ul class="services__list">
               <li class="services__item single-services">
                 <div class="single-services__img">
-                  <img src="/images/content/services-1.png" alt="safety" class="single-services__img-png">
+                  <img src="./images/content/services-1.png" alt="safety" class="single-services__img-png">
                 </div>
                 <div class="single-services__content">
                   <div class="single-services__text-content">
@@ -72,7 +72,7 @@
               </li>
               <li class="services__item single-services">
                 <div class="single-services__img">
-                  <img src="/images/content/services-2.png" alt="protect" class="single-services__img-png">
+                  <img src="./images/content/services-2.png" alt="protect" class="single-services__img-png">
                 </div>
                 <div class="single-services__content">
                   <div class="single-services__text-content">
@@ -84,7 +84,7 @@
               </li>
               <li class="services__item single-services">
                 <div class="single-services__img">
-                  <img src="/images/content/services-3.png" alt="training" class="single-services__img-png">
+                  <img src="./images/content/services-3.png" alt="training" class="single-services__img-png">
                 </div>
                 <div class="single-services__content">
                   <div class="single-services__text-content">
@@ -96,7 +96,7 @@
               </li>
               <li class="services__item single-services">
                 <div class="single-services__img">
-                  <img src="/images/content/services-4.png" alt="special" class="single-services__img-png">
+                  <img src="./images/content/services-4.png" alt="special" class="single-services__img-png">
                 </div>
                 <div class="single-services__content">
                   <div class="single-services__text-content">
@@ -115,21 +115,21 @@
             <h2 class="reviews__title slider__title">Отзывы клиентов</h2>
             <ul class="reviews__list slider__list">
               <li class="reviews__item slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
               <li class="reviews__item slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
               <li class="reviews__item slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
             </ul>
             <ul class="slider__arrows">
               <li class="slider__arrow" id="left">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-link"><img src="./images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
               </li>
               <li class="slider__arrow" id="right">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-link"><img src="./images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
               </li>
             </ul>
             <button class="show__btn">Показать всё</button>
@@ -146,7 +146,7 @@
                 <div class="projects-item__name-data">12/2020</div>
               </div>
               <div class="projects__item-img">
-                <img src="/images/content/projects-orange.jpg" alt="project image">
+                <img src="./images/content/projects-orange.jpg" alt="project image">
               </div>
               <div class="projects__item-text">
                 <p class="projects-item__text-descr">Очень много текста примерно
@@ -154,7 +154,12 @@
                   никто читать не будет.</p>
               </div>
               <div class="projects__item-arrow slider__arrow">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-img">
+                  <svg width=24 height=40 class="slider__arrow-svg">
+                    <use xlink:href="./images/svg/sprite.svg#arrow">
+                    </use>
+                  </svg>
+                </a>
               </div>
             </li>
             <li class="projects__item">
@@ -163,7 +168,7 @@
                 <div class="projects-item__name-data">12/2020</div>
               </div>
               <div class="projects__item-img">
-                <img src="/images/content/projects-people.jpg" alt="projects image">
+                <img src="./images/content/projects-people.jpg" alt="projects image">
               </div>
               <div class="projects__item-text">
                 <p class="projects-item__text-descr">Очень много текста примерно
@@ -171,7 +176,12 @@
                   никто читать не будет.</p>
               </div>
               <div class="projects__item-arrow slider__arrow">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-img">
+                  <svg width=24 height=40 class="slider__arrow-svg">
+                    <use xlink:href="./images/svg/sprite.svg#arrow">
+                    </use>
+                  </svg>
+                </a>
               </div>
             </li>
           </ul>          
@@ -190,7 +200,12 @@
                   на три строчки, ибо больше
                   никто читать не будет.</p>
                 <div class="news__item-arrow slider__arrow projects__item-arrow">
-                  <img src="/images/logo/arrow.png" alt="arrow"></div>
+                  <a href="#" class="slider__arrow-img">
+                    <svg width=24 height=40 class="slider__arrow-svg">
+                      <use xlink:href="./images/svg/sprite.svg#arrow">
+                      </use>
+                    </svg>
+                  </a>
               </li>
               <li class="news__item">
                 <div class="news__item-title">Важная новость</div>
@@ -199,7 +214,12 @@
                   на три строчки, ибо больше
                   никто читать не будет.</p>
                 <div class="news__item-arrow slider__arrow projects__item-arrow">
-                  <img src="/images/logo/arrow.png" alt="arrow">
+                  <a href="#" class="slider__arrow-img">
+                    <svg width=24 height=40 class="slider__arrow-svg">
+                      <use xlink:href="./images/svg/sprite.svg#arrow">
+                      </use>
+                    </svg>
+                  </a>
                 </div>
               </li>
               <li class="news__item">
@@ -209,7 +229,12 @@
                   на три строчки, ибо больше
                   никто читать не будет.</p>
                 <div class="news__item-arrow slider__arrow projects__item-arrow">
-                  <img src="/images/logo/arrow.png" alt="arrow"></div>
+                  <a href="#" class="slider__arrow-img">
+                    <svg width=24 height=40 class="slider__arrow-svg">
+                      <use xlink:href="./images/svg/sprite.svg#arrow">
+                      </use>
+                    </svg>
+                  </a>
               </li>
             </ul>
           </div>
@@ -268,21 +293,21 @@
             <h2 class="slider__title">сертификаты</h2>
             <ul class="slider__list">
               <li class="slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
               <li class="slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
               <li class="slider__item">
-                <img src="/images/content/review__item.jpg" alt="review document">
+                <img src="./images/content/review__item.jpg" alt="review document">
               </li>
             </ul>
             <ul class="slider__arrows">
               <li class="slider__arrow" id="left">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-link"><img src="./images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
               </li>
               <li class="slider__arrow" id="right">
-                <a href="#" class="slider__arrow-link"><img src="/images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
+                <a href="#" class="slider__arrow-link"><img src="./images/logo/arrow.png" alt="arrow" class="slider__arrow-png"></a>
               </li>
             </ul>
             <button class="show__btn">Показать всё</button>
@@ -340,58 +365,75 @@
       <div class="container container__footer">
         <div class="footer__menus">
             <nav class="footer__about">
-              <ul class="about__list">
-                <li class="about__item">
-                  <a href="#" class="about__link">О нас</a>
+              <ul class="about__list footer__list">
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">О нас</a>
                 </li>
-                <li class="about__item">
-                  <a href="#" class="about__link">Новости</a>
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">Новости</a>
                 </li>
-                <li class="about__item">
-                  <a href="#" class="about__link">Статьи</a>
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">Статьи</a>
                 </li>
-                <li class="about__item">
-                  <a href="#" class="about__link">Сертификаты</a>
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">Сертификаты</a>
                 </li>
-                <li class="about__item">
-                  <a href="#" class="about__link">Объекты</a>
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">Объекты</a>
                 </li>
-                <li class="about__item">
-                  <a href="#" class="about__link">Склад</a>
+                <li class="about__item footer__item">
+                  <a href="#" class="about__link footer__link">Склад</a>
                 </li>
               </ul>
             </nav>
             <nav class="footer__catalog">
-              <ul class="catalog__list">
-                <li class="catalog__item">
-                  <a href="#" class="catalog__link">Каталог</a>
+              <ul class="catalog__list footer__list">
+                <li class="catalog__item footer__item">
+                  <a href="#" class="catalog__link footer__link">Каталог</a>
                 </li>
-                <li class="catalog__item">
-                  <a href="#" class="catalog__link">Прайсы</a>
+                <li class="catalog__item footer__item">
+                  <a href="#" class="catalog__link footer__link">Прайсы</a>
                 </li>
-                <li class="catalog__item">
-                  <a href="#" class="catalog__link">Контакты</a>
+                <li class="catalog__item footer__item">
+                  <a href="#" class="catalog__link footer__link">Контакты</a>
                 </li>
               </ul>
             </nav>
-            <div class="footer__contacts-title">Контакты</div>
+            <div class="footer__contacts-title">
+              <a href="#" class="footer__link">Контакты</a>
+            </div>
             <div class="footer__contacts">
               <div class="footer__contacts-info">
-                <div class="footer-contacts__info-input"></div><input type="search" name="search" class="info-input__search" placeholder="Поиск"> 
+                <label class="footer-contacts__info-input"><input type="search" name="search" class="info-input__search" placeholder="Поиск"></label> 
                 <div class="footer-contacts__info-columns">
                   <div class="info-column info-column--left">
                     <div class="info-column__row">
-                      <div class="info-column__row-img"><img src="/images/svg/email.svg" alt="email"></div>
+                      <div class="info-column__row-img">
+                        <svg width=16 height=14 fill='white'>
+                          <use xlink:href="./images/svg/sprite.svg#email">
+                          </use>
+                      </svg>
+                      </div>
                       <a href="mailto:hello@stkrost.ru" class="info-column__row-mail">hello@stkrost.ru</a>
                     </div>
                     <div class="info-column__row">
-                      <div class="info-column__row-img"><img src="/images/svg/map-marker.svg" alt="map marker"></div>
+                      <div class="info-column__row-img">
+                        <svg width=14 height=19 fill='white'>
+                          <use xlink:href="./images/svg/sprite.svg#map-marker">
+                          </use>
+                      </svg>
+                      </div>
                       <div class="info-column__row-city">г. Челябинск</div>
                     </div>
                   </div>
                   <div class="info-column info-column--right">
                     <div class="info-column__row">
-                      <div class="info-column__row-img"><img src="/images/svg/phone.svg" alt="phone"></div>
+                      <div class="info-column__row-img">
+                        <svg width=16 height=17 fill='white'>
+                          <use xlink:href="./images/svg/sprite.svg#phone">
+                          </use>
+                      </svg>
+                      </div>
                       <a href="tel:+78007003030" class="info-column__row-phone">+7 (351) 700-07-71</a>
                     </div>
                     <button class="btn btn--orange">Обратный звонок</button>
@@ -402,7 +444,7 @@
         </div>
         <div class="footer__rights">
           <div class="footer__rights-text">© 2020 Universe, Все права защищены</div>
-          <div class="footer-rights__intec-logo"><a href="#" class="intec-logo__link"><img src="/images/logo/intec-logo.png" alt="intec logo"></a></div>
+          <div class="footer-rights__intec-logo"><a href="#" class="intec-logo__link"><img src="./images/logo/intec-logo.png" alt="intec logo"></a></div>
         </div>
       </div>        
     </footer>  

@@ -35,7 +35,7 @@
       height: 251px;      
       top: 22%;
       right: 97%;
-      background: url(/images/decor/1line-1.png) center center no-repeat;
+      background: url(./images/decor/1line-1.png) center center no-repeat;
     }
 
     &::after {
@@ -46,7 +46,7 @@
       left: 29%;
       width: 611px;
       height: 405px;
-      background: url(/images/decor/1line-2.png) center center no-repeat;
+      background: url(./images/decor/1line-2.png) center center no-repeat;
     }
   }
 
@@ -60,7 +60,7 @@
       right: -7%;
       width: 903px;
       height: 484px;
-      background: url(/images/decor/3line-1.png) center center no-repeat;
+      background: url(./images/decor/3line-1.png) center center no-repeat;
     }
 
     &::after {
@@ -71,7 +71,7 @@
       left: -19%;
       width: 1201px;
       height: 572px;
-      background: url(/images/decor/3line-2.png) center center no-repeat;
+      background: url(./images/decor/3line-2.png) center center no-repeat;
     }
   }
 
@@ -85,7 +85,7 @@
       left: 62%;
       width: 1201px;
       height: 572px;
-      background: url(/images/decor/4line-1.png) center center no-repeat;
+      background: url(./images/decor/4line-1.png) center center no-repeat;
 
     }
   }
@@ -157,5 +157,6 @@ margin-left: 56px;
 
   &:hover {
     background-color: #DC911B;
+    color: white;
   }
 }

@@ -20,24 +20,12 @@
   border-bottom: 1px solid #777E89;
 }
 
-.footer__about {
-  // width: 20%;
-}
-
-.footer__catalog {
-  // width: 20%;
-}
-
-.footer__contacts {
-  // width: 50%;
-}
-
-.about__list {
+.footer__list {
   display: flex;
   flex-direction: column;
 }
 
-.about__item {
+.footer__item {
   font-weight: normal;
   font-size: 14px;
   line-height: 27px;
@@ -54,36 +42,9 @@
   }
 }
 
-.catalog__list {
-  display: flex;
-  flex-direction: column;
-}
-
-.catalog__item {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 27px;
-  
-  color: #777E89;
-  
-  &:first-child {
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 16px;
-  margin-bottom: 15px;
-  
-  color: #FFFFFF;
-  }  
-}
  
-.contacts__list {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__contacts {
   display: flex;
-  // flex: 1;
   justify-content: space-between;
   align-items: flex-start;
 
@@ -159,7 +120,7 @@
     content: '';
     width: 16px;
     height: 16px;
-    background: url(/images/svg/magnifier.svg) center center no-repeat;
+    background: url(./images/svg/magnifier.svg) center center no-repeat;
     cursor: pointer;
   }
 }

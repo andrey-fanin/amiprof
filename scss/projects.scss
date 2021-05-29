@@ -103,4 +103,15 @@ white-space: nowrap;
     background: #DC911B;
     left: 101%;
     top: 97%;
+    
+    border: 1px solid #DC911B;
+    transition: .3s;
+
+    &:hover {
+        background: transparent;
+        
+        .slider__arrow-svg {
+            fill: #DC911B;
+        }        
+    }
 }
